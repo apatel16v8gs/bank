@@ -1,0 +1,167 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+.header {
+	width: 90%;
+	height: 25%;
+	background-color:  #4d94ff;
+
+}
+
+.header h2 a {
+	color:  #ffffff;
+	margin: 25px;
+	padding: 25px;
+	text-decoration: none;
+}
+
+.manu {
+		list-style-type: none;
+   		margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+    	background-color: #333;
+		
+}
+
+.mobile {
+	width: 60%;
+	height: 45%;
+	padding: 15px;
+	background-color: #c2c2a3;
+	border-radius: 10px;
+}
+.mobile h3 {
+	color:#bf4040;
+	font-size: bold;
+}
+
+.manu li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+	color:  #ffffff;
+	
+}
+li a:hover {
+	background-color:#3385ff;
+}
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:fixed;
+    z-index: 99999;
+    background-color: #f9f9f9;
+    min-width: 140px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.log {
+	display:none;
+	background-color:  #f2f2f2;
+	padding: 25px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	position: fixed;
+	z-index: 99999;
+
+}
+.log button {
+	padding: 15px;
+	font-size: bold;
+	background-color: #9999ff;
+	margin: 15px;
+	text-align: center;
+}
+.login {
+		width: 250px;
+		padding: 5px;
+		margin: 5px;
+		background-color: #9999ff;
+		border-radius: 15px;
+		font-size: 20px;
+		position:relative;
+
+}
+.manu-bar {
+	float: left;
+}
+.news {
+	
+	position: absolute;
+	background-color: #66b3ff;
+	width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display:inherit;
+
+}
+.achive {
+		display: none;
+		position: absolute;
+		background-color: #80bfff;
+		width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+	
+}
+.second {
+	background: pink;
+	color: black;
+	width: 90%;
+	height: 600px;
+	padding: 25px;
+
+}
+.dropd {
+ 		position: relative;
+		display: inline-block;
+}
+.dropbutton {
+		background-color: purple;
+		color: white;
+		padding: 15px;
+		margin-top: 15px;
+		font-size: 20px;
+		border: none;
+		cursor: pointer;
+}
+.dropBtn {
+		background-color: purple;
+		color: white;
+		padding: 15px;
+		margin-top: 15px;
+		font-size: 20px;
+		border: none;
+		cursor: pointer;
+}
+.content {
+	
+	padding-right: 150px;
+}
+
+.middle {
+	float:right;
+	width: 75%
+}
+
